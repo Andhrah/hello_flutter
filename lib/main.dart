@@ -7,8 +7,10 @@ void main() {
       home: Material(
         color: Colors.deepOrange,
         child: Center(child: Text(
-      "Hello Andra from Flutter!",
+      "Hello Andra!",
       textDirection: TextDirection.ltr,
+      style: TextStyle(color: Colors.white, fontSize: 36.0
+      ),
     ))
       )
     )
