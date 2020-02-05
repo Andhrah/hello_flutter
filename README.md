@@ -1,6 +1,6 @@
 # hello_flutter
 
-A new Flutter project.
+Hello Flutter is a greeting Flutter App, that greets you base on the time of the day.
 
 ## Getting Started
 
