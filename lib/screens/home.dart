@@ -4,7 +4,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-        color: Colors.deepOrange,
+        color: Colors.tealAccent[700],
         child: Center(
           child: Text(
             sayHello(),
@@ -31,6 +31,6 @@ String sayHello() {
     hello = "Good Evening";
   }
   String minutes = (minute < 10) ? "0" + minute.toString() : minute.toString();
-  return "it's now " + hour.toString() + ":" + minutes + ". \n" + hello;
+  return "It's now " + hour.toString() + ":" + minutes + ". \n" + hello;
 }
 }

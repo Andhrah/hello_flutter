@@ -12,9 +12,8 @@ class HelloFlutterApp extends StatelessWidget {
       home: Scaffold(
       // Scaffold widget allows us to create application bar
       appBar: AppBar(
-        title: Text(
-          "Andra Flutter"
-          ),
+        title: Text("Greetings"),
+        backgroundColor: Color(0xff00695C),
       ),
       body: Home()
       )
