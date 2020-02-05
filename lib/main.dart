@@ -12,7 +12,9 @@ class HelloFlutterApp extends StatelessWidget {
       home: Scaffold(
       // Scaffold widget allows us to create application bar
       appBar: AppBar(
-        title: Text("Andra Flutter")
+        title: Text(
+          "Andra Flutter"
+          ),
       ),
       body: Home()
       )
